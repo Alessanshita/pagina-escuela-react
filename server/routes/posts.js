@@ -1,4 +1,4 @@
-import { Router } from "express";
+/*import { Router } from "express";
 import { PostModel } from "../models/mysql/post.js";
 
 export const postsRouter = Router();

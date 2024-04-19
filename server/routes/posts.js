@@ -6,4 +6,4 @@ export const postsRouter = Router();
 postsRouter.get("/", PostModel.getAll);
 postsRouter.post("/", PostModel.create);
 postsRouter.put("/hide/:id", PostModel.updateHiddenPost);
-postsRouter.put("/edit/:id", PostModel.updatePost);
+postsRouter.put("/edit/:id", PostModel.updatePost);*/

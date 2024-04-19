@@ -82,7 +82,7 @@ export class PostModel {
   }
 }
 
-export class LoginModel {
+/*export class LoginModel {
   static async getUser(req, res) {
     const { Username, Password } = req.body
 
@@ -103,7 +103,7 @@ export class LoginModel {
       }
     })
   }
-}
+}*/
 
 export class InscripcionModel {
   static async getUser(req, res) {

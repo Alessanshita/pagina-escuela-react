@@ -8,7 +8,7 @@ function SidebarTop() {
         <img src="/et7.png" width={49} height={65} alt="Logo escuela" />
         <RectangleIcon />
         <p className="texto-bold texto-violeta">
-          ESCUELA TÉCNICA DOLORES LAVALLE DE LAVALLE
+          ESCUELA TÉCNICA DOLORES LAVALLE
         </p>
       </Link>
     </>

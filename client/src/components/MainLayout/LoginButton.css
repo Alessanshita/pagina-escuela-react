@@ -1,8 +1,6 @@
 .container-button-login {
   position: absolute;
-  right: 4rem;
-  margin-top: 2rem;
-  
+  right: 4rem;  
 }
 
 .container-button-login > a, 
@@ -28,6 +26,11 @@
 .btn.active:focus-visible {
   background-color: #2b0c5a;
   box-shadow: none;
+}
+
+.btn-disable {
+  pointer-events: none;
+  opacity: .5;
 }
 
 @media (max-width: 1470px) {

@@ -1,0 +1,18 @@
+[
+    {
+        "idPost": 1,
+        "hidden": false,
+        "title": "Centro de acompañamiento a las trayectorias escolares (CATE)",
+        "content": "Este consta de encuentros los días sábados, de 13hs a 17hs en el colegio (cabe aclarar que no es obligatorio quedarse hasta las 17hs). Este espacio se brinda especialmente para el fortalecimiento de las materias: Matemáticas: De 1ero a 6to año, Física: De 2do a 3er año, Tecnología de la representación: De 1ero a 3er año.",
+        "dateUploaded": "2024-03-13",
+        "imgPath": "./Cate.png"
+    },
+    {
+        "idPost": 2,
+        "hidden": false,
+        "title": "Mesa de Exámenes",
+        "content": "En las mesas de exámen puedes rendir materias pendientes que debas de años anteriores. (Aún no hay fechas próximas disponibles a la fecha)",
+        "dateUploaded": "2024-07-11",
+        "imgPath": "./MesaExamen.jpg"
+    }
+]

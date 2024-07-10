@@ -13,9 +13,10 @@ function NuestraHistoria() {
             Origen
           </h2>
           <p className="text-texto-violeta">
-            La escuela se creó en 1894 como "Fundación Santa Marta". El 18 de
-            octubre cumplieron 102 años de la imposición del nombre "Dolores
-            Lavalle de Lavalle", que se realizó en 1908.
+          La escuela se creó en 1894 teniendo el título de la primera Escuela Profesional 
+          de Mujeres en Argentina, la cual fue oficialmente nombrada el 18 de octubre de 
+          1908 como “Dolores Lavalle de Lavalle” en honor al nombre de la primera presidenta 
+          y fundadora de la escuela.
             <br />
             <br />
             Dolores Lavalle de Lavalle es el nombre de la fundadora. Ella era
@@ -25,7 +26,6 @@ function NuestraHistoria() {
             “Ricardo Gutiérrez” y con la creación de la Casa Cuna.
             <br />
             <br />
-            En el hall de entrada de nuestra escuela se encuentra su retrato.
             Ella pensaba que las mujeres de menores recursos tenían que aprender
             algún oficio y tener algún conocimiento que les permitiera trabajar,
             defenderse económicamente en la vida. Su idea era brindarles una
@@ -33,6 +33,18 @@ function NuestraHistoria() {
             Marta”, en la cual se enseñaba, entre otras, disciplinas
             consideradas del género femenino en aquella época, corte y
             confección.
+            <br />
+            <br />
+            A lo largo de los años, la escuela se ha mudado varias veces y 
+            ha adaptado su especialidad. A pesar de estos cambios, ha mantenido 
+            su compromiso con la enseñanza y el aprendizaje.
+            <br />
+            <br />
+            Si bien en un principio se trataba de una escuela para mujeres, con 
+            el tiempo fue cambiando para otorgar una educación de forma inclusiva, 
+            sin importar género ni características personales. Actualmente la escuela 
+            cuenta con la especialidad en GAO (Administración de Empresas) y 
+            Computación, y forma a más de 500 estudiantes cada año.
           </p>
           <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
             <div className="m-1 flex flex-wrap flex-col md:flex-row content-center md:-m-2">
@@ -41,7 +53,7 @@ function NuestraHistoria() {
                   <img
                     alt="gallery"
                     className="block h-96 w-fit rounded-lg object-cover object-center"
-                    src="./foto-dolores-1.jpg"
+                    src="./FotoDolores1.jpg"
                   />
                 </div>
               </div>
@@ -50,7 +62,7 @@ function NuestraHistoria() {
                   <img
                     alt="gallery"
                     className="block h-96 w-fit rounded-lg object-cover object-center"
-                    src="./foto-dolores-2.jpg"
+                    src="./DoloresEstatua.jpg"
                   />
                 </div>
               </div>

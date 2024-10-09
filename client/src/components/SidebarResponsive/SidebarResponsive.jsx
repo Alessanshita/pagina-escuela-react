@@ -7,6 +7,7 @@ import {
   InstitutionIcon,
   BookIcon,
   EventIcon,
+  HikingIcon,
   QuestionIcon,
   HamburguerIcon,
   BriefcaseIcon,
@@ -43,20 +44,6 @@ function SidebarResponsive({ isLoggedIn, handleLogout }) {
           ESCUELA TÉCNICA DOLORES LAVALLE DE LAVALLE
         </p>
       </Link>
-
-      {isLoggedIn ? (
-        <div className="container-button-login">
-          <button className="btn btn-primary" onClick={handleLogout}>
-            Cerrar sesión
-          </button>
-        </div>
-      ) : (
-        <div className="container-button-login">
-          <Link to="login" className="btn btn-primary login-a btn-disable">
-            Iniciar sesión
-          </Link>
-        </div>
-      )}
 
       <div
         className="offcanvas offcanvas-start"
@@ -162,6 +149,13 @@ function SidebarResponsive({ isLoggedIn, handleLogout }) {
                 <li className="container-item-individual texto-semibold">
                   <EventIcon />
                   <p className="texto-violeta">Nuestros Eventos</p>
+                </li>
+              </Link>
+
+              <Link to="tinku">
+                <li className="container-item-individual texto-semibold">
+                  <HikingIcon />
+                  <p className="texto-violeta">TINKU</p>
                 </li>
               </Link>
 

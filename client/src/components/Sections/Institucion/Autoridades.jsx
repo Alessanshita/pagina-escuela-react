@@ -9,7 +9,7 @@ function Autoridades() {
       </div>
       <div className={styles.contenedorImagenes}>
         <CardAutoridad
-          foto={'./DiegoBaron.jpg'}
+          foto={'./DiegoBaron.jpeg'}
           cargo={'Rector'}
           nombre={'Diego Baron'}
         />

@@ -54,5 +54,29 @@
         "content": "Este día no solo nos invita a celebrar nuestra independencia política, sino también a reflexionar sobre los valores que defendieron nuestros próceres: la libertad, la justicia, la igualdad y la solidaridad.",
         "dateUploaded": "2024-07-9",
         "imgPath": "./9Julio.jpg"
+    },
+    {
+        "idPost": 8,
+        "hidden": false,
+        "title": "17 DE AGOSTO",
+        "content": "Rendimos homenaje a uno de los más grandes próceres de nuestra nación, el General José de San Martín, en el día de su paso a la inmortalidad nos recuerda no solo su valentía y liderazgo, sino también su inquebrantable compromiso con la libertad y la independencia de nuestro país.",
+        "dateUploaded": "2024-08-18",
+        "imgPath": "./17Agosto.jpeg"
+    },
+    {
+        "idPost": 9,
+        "hidden": false,
+        "title": "11 DE SEPTIEMBRE",
+        "content": "Sales Force CRM y Gestion de Clientes se acercó a nuestro establecimiento para capacitar a nuestros alumnos del ultimo año. Se realizo una introducción a las posibles carreras en tecnología, así como recomendaciones para elaborar un “pitch” y una introducción al uso de Trailhead para capacitación.",
+        "dateUploaded": "2024-09-12",
+        "imgPath": "./SalesForce.jpeg"
+    },
+    {
+        "idPost": 10,
+        "hidden": false,
+        "title": "16 DE SEPTIEMBRE",
+        "content": "Este día nos invita a reflexionar sobre la valentía y la lucha de aquellos jóvenes que, con un lápiz en mano, se atrevieron a alzar su voz por la justicia y la educación. Nuestros alumnos de 6to y 5to de computación, quienes participaron en una obra que representa la historia de los lápices, a través de su actuación.",
+        "dateUploaded": "2024-09-17",
+        "imgPath": "./16Septiembre.jpeg"
     }
 ]

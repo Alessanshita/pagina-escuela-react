@@ -24,6 +24,7 @@ import Computacion from '../Sections/PlanDeEstudio/Computacion.jsx'
 import PreguntasFrecuentes from '../Sections/PreguntasFrecuentes/PreguntasFrecuentes.jsx'
 import NotFound from '../Sections/NotFound/NotFound.jsx'
 import Eventos from '../Sections/Eventos/Eventos.jsx'
+import Tinku from '../Sections/Tinku/Tinku.jsx'
 import './LoginButton.css'
 
 function MainLayout() {
@@ -134,6 +135,7 @@ function MainLayout() {
         />
         <Route exact path="*" element={<NotFound />} />
         <Route exact path="/eventos" element={<Eventos />} />
+        <Route exact path="/tinku" element={<Tinku />} />
       </Routes>
 
       <Footer />

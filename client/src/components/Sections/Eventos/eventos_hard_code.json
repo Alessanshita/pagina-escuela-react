@@ -1,0 +1,82 @@
+[
+    {
+        "idPost": 1,
+        "hidden": false,
+        "title": "24 DE MARZO",
+        "content": "Nos invita a recordar a aquellos que perdieron la vida en aquellos tiempos oscuros, sino que también nos llama a buscar la verdad y a luchar por la justicia. Durante esos años, muchas personas fueron desaparecidas, torturadas y privadas de sus derechos humanos más básicos.",
+        "dateUploaded": "2024-03-25",
+        "imgPath": "./24Marzo.jpg"
+    },
+    {
+        "idPost": 2,
+        "hidden": false,
+        "title": "2 DE ABRIL",
+        "content": "Día Mundial de Conocimiento sobre el Autismo, una fecha para visualizar a las personas con trastorno del espectro del autismo (TEA) y sus familiares y promover el ejercicio efectivo de sus derechos.",
+        "dateUploaded": "2024-04-2",
+        "imgPath": "./2Abril.jpg"
+    },
+    {
+        "idPost": 3,
+        "hidden": false,
+        "title": "2 DE ABRIL",
+        "content": "Día del Veterano a los caídos en la guerra de Malvinas. Es un día de profundo respeto hacia nuestros veteranos, aquellos hombres y mujeres que dejaron sus hogares y familias para servir a su país en tiempos de conflicto.",
+        "dateUploaded": "2024-04-2",
+        "imgPath": "./2-abril.jpg"
+    },
+    {
+        "idPost": 4,
+        "hidden": false,
+        "title": "27 DE ABRIL",
+        "content": "El ministerio público tutelar GCBA brindó en nuestra escuela una obra de teatro que abordó temas vinculados a la convivencia y protección integral de derechos de los/as adolescentes, enfocados especialmente en la comunicación a través de las redes/plataformas digitales.",
+        "dateUploaded": "2024-04-28",
+        "imgPath": "./27Abril.jpg"
+    },
+    {
+        "idPost": 5,
+        "hidden": false,
+        "title": "1 DE MAYO",
+        "content": "Se conmemora el Día Internacional de los Trabajadores, en honor a los mártires de Chicago. Estos fueron acusados de causar disturbios, durante una serie de huelgas que comenzaron el 01/05/1886, trabajadores de la fábrica pidieron una reducción de horas de trabajo.",
+        "dateUploaded": "2024-05-1",
+        "imgPath": "./1Mayo.jpg"
+    },
+    {
+        "idPost": 6,
+        "hidden": false,
+        "title": "20 DE JUNIO",
+        "content": "Conmemoramos el Día de la Bandera en honor a Manuel Belgrano, quien creó nuestro emblema patrio con los colores celeste y blanco, inspirándonos a todos con su amor por la patria y su dedicación a la libertad.",
+        "dateUploaded": "2024-06-21",
+        "imgPath": "./20Junio.jpg"
+    },
+    {
+        "idPost": 7,
+        "hidden": false,
+        "title": "9 DE JULIO",
+        "content": "Este día no solo nos invita a celebrar nuestra independencia política, sino también a reflexionar sobre los valores que defendieron nuestros próceres: la libertad, la justicia, la igualdad y la solidaridad.",
+        "dateUploaded": "2024-07-9",
+        "imgPath": "./9Julio.jpg"
+    },
+    {
+        "idPost": 8,
+        "hidden": false,
+        "title": "17 DE AGOSTO",
+        "content": "Rendimos homenaje a uno de los más grandes próceres de nuestra nación, el General José de San Martín, en el día de su paso a la inmortalidad nos recuerda no solo su valentía y liderazgo, sino también su inquebrantable compromiso con la libertad y la independencia de nuestro país.",
+        "dateUploaded": "2024-08-18",
+        "imgPath": "./17Agosto.jpeg"
+    },
+    {
+        "idPost": 9,
+        "hidden": false,
+        "title": "11 DE SEPTIEMBRE",
+        "content": "Sales Force CRM y Gestion de Clientes se acercó a nuestro establecimiento para capacitar a nuestros alumnos del ultimo año. Se realizo una introducción a las posibles carreras en tecnología, así como recomendaciones para elaborar un “pitch” y una introducción al uso de Trailhead para capacitación.",
+        "dateUploaded": "2024-09-12",
+        "imgPath": "./SalesForce.jpeg"
+    },
+    {
+        "idPost": 10,
+        "hidden": false,
+        "title": "16 DE SEPTIEMBRE",
+        "content": "Este día nos invita a reflexionar sobre la valentía y la lucha de aquellos jóvenes que, con un lápiz en mano, se atrevieron a alzar su voz por la justicia y la educación. Nuestros alumnos de 6to y 5to de computación, quienes participaron en una obra que representa la historia de los lápices, a través de su actuación.",
+        "dateUploaded": "2024-09-17",
+        "imgPath": "./16Septiembre.jpeg"
+    }
+]

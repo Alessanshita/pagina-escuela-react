@@ -1,23 +1,28 @@
 import { useState, useEffect } from 'react'
 import CardPublicacion from '../../CardPublicacion/CardPublicacion'
 import './Publicaciones.css'
+import publicaciones from './publicaciones_hard_code.json';
 
 //const URL_POSTS = 'http://localhost:3001'
 const URL_POSTS = 'https://pagina-escuela-react-production.up.railway.app'
 
 function PublicacionesSL() {
-  const [publicaciones, setPublicaciones] = useState([])
 
-  useEffect(() => {
-    fetch(`${URL_POSTS}/posts`)
-      .then((res) => res.json())
-      .then((data) => {
-        setPublicaciones(data)
-      })
-      .catch((error) => {
-        console.error('Error al obtener las publicaciones: ', error)
-      })
-  }, [])
+  // // RESOLVER ESTE TEMA DESDE EL BACK EN EL FUTURO
+  // const [publicaciones, setPublicaciones] = useState([])
+  // useEffect(() => {
+  //   fetch(`${URL_POSTS}/posts`)
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setPublicaciones(data)
+  //     })
+  //     .catch((error) => {
+  //       console.error('Error al obtener las publicaciones: ', error)
+  //     })
+  // }, [])
+
+  // hardcodeamos las publicaciones para salir del paso
+
 
   return (
     <section className="content-container">
@@ -35,6 +40,7 @@ function PublicacionesSL() {
               title={publicacion.title}
               content={publicacion.content}
               dateUploaded={publicacion.dateUploaded}
+              imgPath={publicacion.imgPath}
             />
           </div>
         ))}

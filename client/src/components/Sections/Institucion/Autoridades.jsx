@@ -9,17 +9,17 @@ function Autoridades() {
       </div>
       <div className={styles.contenedorImagenes}>
         <CardAutoridad
-          foto={'./fotoUser.webp'}
-          cargo={'Rectora'}
-          nombre={'María Laura Torres'}
+          foto={'./DiegoBaron.jpeg'}
+          cargo={'Rector'}
+          nombre={'Diego Baron'}
         />
         <CardAutoridad
-          foto={'./fotoUser.webp'}
+          foto={'./KarinaPereyra.jpg'}
           cargo={'Vicerrectora'}
-          nombre={'Patricia Capello'}
+          nombre={'Karina Pereyra'}
         />
         <CardAutoridad
-          foto={'./fotoUser.webp'}
+          foto={'./JuanAbreu.jpg'}
           cargo={'Rector TM'}
           nombre={'Juan de Abreu'}
         />
@@ -27,7 +27,7 @@ function Autoridades() {
       <div className={styles.contenedorImagenes}>
         <CardAutoridad
           foto={'./fotoUser.webp'}
-          cargo={'Rector TT'}
+          cargo={'Rectora TT'}
           nombre={"Silvina De'Aquino"}
         />
         <CardAutoridad

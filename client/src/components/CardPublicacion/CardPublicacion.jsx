@@ -1,11 +1,11 @@
 import { getFormattedDate } from '../../utils/getFormattedDate'
 
-function CardPublicacion({ title, content, dateUploaded }) {
+function CardPublicacion({ title, content, dateUploaded, imgPath }) {
   const formattedDate = getFormattedDate(dateUploaded)
   return (
-    <a href="/">
+    <a href="/" style={{pointerEvents: "none"}}>
       <div className="contenedor-img">
-        <img src="./foto-escuela-2.jpg" alt="Entrada de la escuela" />
+        <img src={imgPath} alt="Entrada de la escuela" />
         <div className="descripcion-superior-div">
           <h3 className="texto-bold">{title}</h3>
           <p className="texto-regular">{content}</p>

@@ -23,6 +23,8 @@ import Computacion from '../Sections/PlanDeEstudio/Computacion.jsx'
 
 import PreguntasFrecuentes from '../Sections/PreguntasFrecuentes/PreguntasFrecuentes.jsx'
 import NotFound from '../Sections/NotFound/NotFound.jsx'
+import Eventos from '../Sections/Eventos/Eventos.jsx'
+import Tinku from '../Sections/Tinku/Tinku.jsx'
 import './LoginButton.css'
 
 function MainLayout() {
@@ -61,11 +63,8 @@ function MainLayout() {
     if (currentWindowWidth <= 768) {
       setIsLaptopResolution(false)
       setIsCellResolution(true)
-    } else if (currentWindowWidth <= 1470) {
-      setIsLaptopResolution(true)
-      setIsCellResolution(false)
     } else {
-      setIsLaptopResolution(false)
+      setIsLaptopResolution(true)
       setIsCellResolution(false)
     }
   }
@@ -79,7 +78,7 @@ function MainLayout() {
   }, [])
 
   return (
-    <div className="grid-container">
+    <div>
       {isLaptopResolution ? (
         <SidebarResponsive
           isLoggedIn={isLoggedIn}
@@ -135,6 +134,8 @@ function MainLayout() {
           element={<PreguntasFrecuentes />}
         />
         <Route exact path="*" element={<NotFound />} />
+        <Route exact path="/eventos" element={<Eventos />} />
+        <Route exact path="/tinku" element={<Tinku />} />
       </Routes>
 
       <Footer />

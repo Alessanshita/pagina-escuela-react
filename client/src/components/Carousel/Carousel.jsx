@@ -8,41 +8,42 @@ function Carousel() {
       id="carouselExampleAutoplaying"
       className="carousel slide"
       data-bs-ride="carousel"
+      data-bs-interval="2500"
     >
       <div className="carousel-inner md:w-full md:h-full">
         <div className="carousel-item active">
           <img
-            src="./foto-escuela-1.jpg"
-            className="w-full"
-            alt="SUM del colegio"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="./foto-escuela-2.jpg"
+            src="./foto-escuela-01.jpg"
             className="w-full"
             alt="Entrada del colegio"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="./foto-escuela-3.jpg"
+            src="./HallEntrada.png"
             className="w-full"
-            alt="Puente del colegio"
+            alt="Hall de entrada"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="./foto-escuela-4.jpg"
+            src="./secretaria.png"
             className="w-full"
-            alt="Buffet del colegio"
+            alt="Secretaria"
           />
         </div>
         <div className="carousel-item">
           <img
-            src="./foto-escuela-5.jpg"
+            src="./SUM.jpg"
             className="w-full"
-            alt="Secretaría del colegio"
+            alt="SUM"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src="./DoloresTitulos.jpg"
+            className="w-full"
+            alt=""
           />
         </div>
       </div>

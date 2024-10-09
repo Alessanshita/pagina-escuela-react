@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import {
   CloseIcon,
@@ -5,6 +6,8 @@ import {
   PublicationIcon,
   InstitutionIcon,
   BookIcon,
+  EventIcon,
+  HikingIcon,
   QuestionIcon,
   HamburguerIcon,
   BriefcaseIcon,
@@ -12,6 +15,18 @@ import {
 import './SidebarResponsive.css'
 
 function SidebarResponsive({ isLoggedIn, handleLogout }) {
+
+  const [showInstitucion, setShowInstitucion] = useState(false);
+  const [showPlanDeEstudio, setShowPlanDeEstudio] = useState(false);
+
+  const toggleInstitucion = () => {
+    setShowInstitucion(!showInstitucion);
+  };
+
+  const togglePlanDeEstudio = () => {
+    setShowPlanDeEstudio(!showPlanDeEstudio);
+  };
+
   return (
     <div className="header">
       <button
@@ -29,20 +44,6 @@ function SidebarResponsive({ isLoggedIn, handleLogout }) {
           ESCUELA TÉCNICA DOLORES LAVALLE DE LAVALLE
         </p>
       </Link>
-
-      {isLoggedIn ? (
-        <div className="container-button-login">
-          <button className="btn btn-primary" onClick={handleLogout}>
-            Cerrar sesión
-          </button>
-        </div>
-      ) : (
-        <div className="container-button-login">
-          <Link to="login" className="btn btn-primary login-a">
-            Iniciar sesión
-          </Link>
-        </div>
-      )}
 
       <div
         className="offcanvas offcanvas-start"
@@ -70,18 +71,17 @@ function SidebarResponsive({ isLoggedIn, handleLogout }) {
                   <p className="texto-violeta">Inicio</p>
                 </li>
               </Link>
-              <Link to="publicacionesSL">
+              <Link to="publicaciones">
                 <li className="container-item-individual texto-semibold">
                   <PublicationIcon />
                   <p className="texto-violeta">Publicaciones</p>
                 </li>
               </Link>
-              <Link href="#">
-                <li className="container-item-individual texto-semibold">
-                  <InstitutionIcon />
-                  <p className="texto-violeta">Institución</p>
-                </li>
-                <ul className="container-subitems">
+              <li className={"container-item-individual texto-semibold"}  style={{cursor: "pointer"}} onClick={toggleInstitucion}>
+                <InstitutionIcon />
+                <p className="texto-violeta dropdown-toggle">Institución</p>
+              </li>
+              <ul className="container-subitems" style={{position: "relative", display: `${showInstitucion ? 'block' : 'none'}`}}>
                   <li className="fondo">
                     <Link
                       className="subitem texto-semibold texto-violeta"
@@ -99,15 +99,14 @@ function SidebarResponsive({ isLoggedIn, handleLogout }) {
                     </Link>
                   </li>
                   <li className="fondo">
-                    <Link
-                      className="subitem texto-semibold texto-violeta"
-                      to="galeria"
+                    <Link 
+                      className="subitem texto-semibold texto-violeta" 
+                      to="documentos"
                     >
-                      Galería
+                      Documentos
                     </Link>
                   </li>
                 </ul>
-              </Link>
 
               <Link to="/practicas-profesionalizantes">
                 <li className="container-item-individual texto-semibold">
@@ -115,13 +114,11 @@ function SidebarResponsive({ isLoggedIn, handleLogout }) {
                   <p className="texto-violeta">Prácticas Profesionalizantes</p>
                 </li>
               </Link>
-
-              <a href="#">
-                <li className="container-item-individual texto-semibold">
-                  <BookIcon />
-                  <p className="texto-violeta">Plan de estudio</p>
-                </li>
-                <ul className="container-subitems">
+              <li className="container-item-individual texto-semibold" style={{cursor: "pointer"}} onClick={togglePlanDeEstudio}>
+                <BookIcon />
+                <p className="texto-violeta dropdown-toggle">Plan de estudio</p>
+              </li>
+              <ul className="container-subitems" style={{position: "relative", display: `${showPlanDeEstudio ? 'block' : 'none'}`}}>
                   <li className="fondo">
                     <Link
                       className="subitem texto-semibold texto-violeta"
@@ -147,7 +144,20 @@ function SidebarResponsive({ isLoggedIn, handleLogout }) {
                     </Link>
                   </li>
                 </ul>
-              </a>
+              
+              <Link to="eventos">
+                <li className="container-item-individual texto-semibold">
+                  <EventIcon />
+                  <p className="texto-violeta">Nuestros Eventos</p>
+                </li>
+              </Link>
+
+              <Link to="tinku">
+                <li className="container-item-individual texto-semibold">
+                  <HikingIcon />
+                  <p className="texto-violeta">TINKU</p>
+                </li>
+              </Link>
 
               <Link to="preguntas-frecuentes">
                 <li className="container-item-individual texto-semibold">
@@ -163,4 +173,4 @@ function SidebarResponsive({ isLoggedIn, handleLogout }) {
   )
 }
 
-export default SidebarResponsive
+export default SidebarResponsive;

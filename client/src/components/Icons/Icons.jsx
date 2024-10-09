@@ -1,4 +1,19 @@
 import './Icons.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendar, faHiking } from '@fortawesome/free-solid-svg-icons';
+
+
+export function HikingIcon() {
+  return (
+    <FontAwesomeIcon icon={faHiking} style={{ color: '#2b0c5a' }} className="icon-item" />
+  );
+}
+
+export function EventIcon() {
+  return (
+    <FontAwesomeIcon icon={faCalendar}  style={{ color: '#2b0c5a' }} className="icon-item" />
+  );
+}
 
 export function HamburguerIcon() {
   return (

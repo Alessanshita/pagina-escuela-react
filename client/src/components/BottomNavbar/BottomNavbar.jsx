@@ -8,6 +8,9 @@ import {
   BookIcon,
   HomeIcon,
   BriefcaseIcon,
+  EventIcon,
+  HikingIcon,
+  QuestionIcon
 } from '../Icons/Icons.jsx'
 
 import '../SidebarResponsive/SidebarResponsive.css'
@@ -144,6 +147,26 @@ function BottomNavbar() {
                     </Link>
                   </li>
                 </ul>
+              </Link>
+              <Link to="eventos">
+                <li className="container-item-individual texto-semibold">
+                  <EventIcon />
+                  <p className="texto-violeta">Nuestros Eventos</p>
+                </li>
+              </Link>
+
+              <Link to="tinku">
+                <li className="container-item-individual texto-semibold">
+                  <HikingIcon />
+                  <p className="texto-violeta">TINKU</p>
+                </li>
+              </Link>
+
+              <Link to="preguntas-frecuentes">
+                <li className="container-item-individual texto-semibold">
+                  <QuestionIcon />
+                  <p className="texto-violeta">Preguntas frecuentes</p>
+                </li>
               </Link>
             </ul>
           </div>

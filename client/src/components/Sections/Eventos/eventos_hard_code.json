@@ -78,5 +78,13 @@
         "content": "Este día nos invita a reflexionar sobre la valentía y la lucha de aquellos jóvenes que, con un lápiz en mano, se atrevieron a alzar su voz por la justicia y la educación. Nuestros alumnos de 6to y 5to de computación, quienes participaron en una obra que representa la historia de los lápices, a través de su actuación.",
         "dateUploaded": "2024-09-17",
         "imgPath": "./16Septiembre.jpeg"
+    },
+    {
+        "idPost": 11,
+        "hidden": false,
+        "title": "25 DE SEPTIEMBRE",
+        "content": "La empresa Sales Force, se ha unido con la ONG Suit Up que se dedica a ofrecer experiencias educativas a estudiantes a través de competencias empresariales simuladas. Estas organizaciones realizan un evento anual en un colegio del país donde los estudiantes tienen la oportunidad de competir en equipos. El equipo ganador representará a nuestro país en una competencia internacional. Este año un grupo de nuestra escuela resultó ganador con su proyecto OptimusBA, con el cual pasaron a la siguiente fase y competiran contra otros colegios. ",
+        "dateUploaded": "2024-09-26",
+        "imgPath": "./SalesForce25sep.jpeg"
     }
 ]

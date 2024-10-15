@@ -47,6 +47,28 @@ function PracticasProfesionalizantes() {
           <br />
           ⚫Gestión Parque: La empresa se dedica a ofrecer servicios financieros tales como: 
           contabilidad, finanzas e inversiones, parte impositiva, sueldos y jornales.
+          <br />
+          ⚫Mercado insumo: Es un negocio de venta de insumos tecnológicos. 
+          Especializado en computación, periféricos, gamers y artículos para el hogar.
+          <br />
+          ⚫Cirion Technology: Es un proveedor líder de infraestructura digital y tecnología 
+          que ofrece un conjunto integral de soluciones de redes de fibra, conectividad, 
+          colocación, infraestructura en la nube y de comunicación y colaboración con el 
+          propósito de promover el progreso de América Latina a través de la tecnología.
+          <br />
+          ⚫Asociación Argentina Odotologica: El mismo tiene como objeto distinguir a odontólogos
+          o profesionales de distintas disciplinas del arte de curar que se destacaron por sus 
+          cualidades y servicios en las áreas docentes, de investigación y asistencial formando 
+          discípulos, manteniendo a lo largo de su trayectoria un comportamiento ético y moral ejemplar.
+          <br />
+          ⚫Fundación pescar:  Sus principales actividades incluyen, capacitación en habilidades
+          técnicas y blandas, ofrecen programas de formación en áreas específicas como tecnología,
+          comercio, logística, y otras. También trabajan en habilidades blandas como la comunicación,
+          trabajo en equipo y liderazgo, esenciales para el mundo laboral.
+          <br />
+          ⚫Estudio Lopez Mónaco: La labor principal consiste en la gestión administrativa y financiera,
+          incluyendo el balanceo de datos, compras y ventas, la interacción con empresas terciarias y
+          el cumplimiento de obligaciones fiscales ante AFIP.
           </p>
           <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
             <div className="m-2 flex flex-wrap content-center justify-center items-center">
@@ -60,12 +82,46 @@ function PracticasProfesionalizantes() {
                   />
                 </div>
               </div>
+              <div className="p-1 md:p-2 my-4 md:my-0">
               <img
+                    alt="gallery"
+                    className="block w-fit object-contain object-center"
+                    src="MercIns.png"
+                    style={{ height: '13rem' }}
+                  />
+              </div>
+              <div className="p-1 md:p-2 my-4 md:my-0">
+                  <img
+                    alt="gallery"
+                    className="block w-fit object-contain object-center"
+                    src="CirionTech.png"
+                    style={{ height: '13rem' }}
+                  />
+                </div>
+                <div className="p-1 md:p-2 my-4 md:my-0">
+                  <img
+                    alt="gallery"
+                    className="block w-fit object-contain object-center"
+                    src="AsoOdonto.jpg"
+                    style={{ height: '08rem' }}
+                  />
+                </div>
+                <div className="p-1 md:p-2 my-4 md:my-0">
+                  <img
+                    alt="gallery"
+                    className="block w-fit object-contain object-center"
+                    src="FundPescar.jpeg"
+                    style={{ height: '10rem' }}
+                  />
+                </div>
+                <div className="p-1 md:p-2 my-4 md:my-0">
+                  <img
                     alt="gallery"
                     className="block w-fit object-contain object-center"
                     src="GAO.jpeg"
                     style={{ height: '13rem' }}
                   />
+                </div>
             </div>
           </div>
           <h3 className="mb-2 text-2xl font-medium text-texto-violeta" style={{ marginLeft: '50px' }}>
@@ -102,7 +158,34 @@ function PracticasProfesionalizantes() {
                   />
             </div>
           </div>
+          <h2 className="mb-2 text-2xl font-medium text-texto-violeta" style={{ marginLeft: '50px' }}>
+            Streambe
+            </h2>
+            <p className="text-texto-violeta">
+            Streambe es una empresa de ingeniería de software que se especializa en ofrecer soluciones 
+            tecnológicas a medida, como el desarrollo de aplicaciones móviles y web, además de brindar 
+            servicios de "staff augmentation" (ampliación de personal tecnológico), business intelligence, 
+            consultoría IT, y soluciones DevOps. Está enfocada en industrias de alto crecimiento como la 
+            salud, la banca y la educación, ayudando a empresas a digitalizar procesos y automatizar 
+            operaciones.
+            En el ámbito educativo, Streambe ha desarrollado una iniciativa innovadora llamada Generación T, 
+            un programa 100% virtual y gratuito dirigido a estudiantes de secundaria en Argentina. Este programa 
+            busca formar jóvenes en tecnologías de la información, brindándoles las habilidades necesarias para 
+            desempeñarse como desarrolladores web full stack junior, con foco en empleabilidad. El curso combina 
+            teoría y práctica (metodología "learning by doing"), e incluye tutorías, control de asistencia 
+            automatizado y la realización de un proyecto final. Al finalizar, los egresados pueden acceder 
+            a oportunidades laborales a través de alianzas con más de 300 empresas tecnológicas.
+            </p>
+            <div className="p-1 md:p-2 my-4 md:my-0 flex justify-center items-center">
+              <img
+                alt="gallery"
+                className="block w-fit object-contain object-center"
+                src="Streambe.png"
+                style={{ height: '10rem' }}
+              />
+            </div>
         </div>
+  
         <div className="my-3">
           <h2 className="mb-2 text-4xl font-medium text-texto-violeta">
             Capacitaciones

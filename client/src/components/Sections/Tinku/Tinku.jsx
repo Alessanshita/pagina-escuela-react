@@ -184,9 +184,9 @@ function PracticasProfesionalizantes() {
 
           Prof. Benedetti, Rosario del Mar
 
-          Prof. Martelotta, Etel
+          Prof. Brazo, Arturo
 
-          Prof. Carral, Esteban
+          Prof. Ural, Erika
 
           Prof. Coordinador, Gallo, Cristian D.
 

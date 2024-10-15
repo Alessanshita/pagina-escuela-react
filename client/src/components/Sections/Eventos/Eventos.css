@@ -1,0 +1,6 @@
+.scrollbar-pretty {
+    overflow-y: overlay;
+    max-height: 150px;
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #ffffff00;
+}

@@ -1,6 +1,7 @@
 import CardPublicacion from '../../CardPublicacion/CardPublicacion'
 import '../Publicaciones/Publicaciones.css'
 import eventos from './eventos_hard_code.json';
+import './Eventos.css'
 
 
 function Eventos() {
